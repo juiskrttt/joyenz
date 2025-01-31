@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffa500; /* Orange for the entire background */
+  }
+  
+  /* Banner Section */
+  .banner {
+    background-color: #8b4513; /* SaddleBrown */
+    color: #000; /* Black text */
+    text-align: center;
+    padding: 150px 0; /* Adjusted padding for height */
+  }
+  
+  .banner h1 {
+    margin: 0;
+    font-size: 40px; /* Adjusted font size */
+    font-weight: bold;
+  }
+  
+  /* Navbar Section inside Content */
+  .content {
+    text-align: center;
+    padding: 40px; /* Increased padding for text spacing */
+    background-color: #ffa500; /* Orange */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .navbar {
+    text-align: center;
+    margin-top: 20px; /* Add spacing between content and navbar */
+  }
+  
+  .navbar a {
+    color: #000; /* Black text */
+    text-decoration: none;
+    margin: 0 15px; /* Adjusted spacing between links */
+    font-weight: bold;
+    font-size: 18px; /* Adjusted font size for links */
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Content Section */
+  .content h2 {
+    margin-top: 0;
+    color: #000; /* Black text */
+    font-weight: bold;
+    font-size: 28px; /* Adjusted font size for header */
+    text-align: left; /* Align the h2 content to the right */
+  }
+  
+  .content p {
+    margin: 15px 0; /* Increased spacing between paragraphs */
+    color: #333; /* Dark Gray */
+    font-size: 18px; /* Adjusted font size for paragraphs */
+    text-align: left; 
+  }
+  /* Footer Styles */
+  /* Footer Styles */
+  footer {
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 60px; /* Set height for the footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 16px; /* Adjusted font size for footer text */
+  }
+  
+  
+  footer p {
+    margin: 0;
+    font-size: 16px; /* Adjusted font size for footer text */
+  
+  }
